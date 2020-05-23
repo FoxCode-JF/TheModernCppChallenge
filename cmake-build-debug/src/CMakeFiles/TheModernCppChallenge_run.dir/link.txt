@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TheModernCppChallenge_run.dir/main.cpp.o  -o TheModernCppChallenge_run  1.Math/libMath_lib.a libTheModernCppChallenge_lib.a 

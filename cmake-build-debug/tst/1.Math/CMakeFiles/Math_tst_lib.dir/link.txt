@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMath_tst_lib.a  CMakeFiles/Math_tst_lib.dir/sumOfIntsDividedBy3or5Tests.cpp.o
+/usr/bin/ranlib libMath_tst_lib.a

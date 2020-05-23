@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTheModernCppChallenge_lib.a  CMakeFiles/TheModernCppChallenge_lib.dir/main.cpp.o CMakeFiles/TheModernCppChallenge_lib.dir/__/tst/mainTests.cpp.o
+/usr/bin/ranlib libTheModernCppChallenge_lib.a

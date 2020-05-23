@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/All_tst.dir/mainTests.cpp.o  -o All_tst  -lTheModernCppChallenge_run ../lib/libgtestd.a -lpthread 

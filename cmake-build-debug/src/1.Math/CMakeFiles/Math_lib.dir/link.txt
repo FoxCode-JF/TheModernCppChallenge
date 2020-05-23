@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMath_lib.a  CMakeFiles/Math_lib.dir/gcd.cpp.o CMakeFiles/Math_lib.dir/sumOfIntsDividedBy3or5.cpp.o
+/usr/bin/ranlib libMath_lib.a
