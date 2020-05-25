@@ -2,9 +2,23 @@ set(This Math_tst)
 
 set(Sources
         sumOfIntsDividedBy3or5Tests.cpp
-        )
-#set(Headers
-#        "../../include/1.Math/mathematics.h"
-#        )
+        gcdTests.cpp)
+add_executable(${This} ${Sources} mathTests.cpp)
 
-add_library(${This}_lib STATIC ${Sources})
+
+#[[
+#   TODO:
+#   compile sources from math module as library and link it to all tests
+#   Currently: sources added directly via path
+#]]
+#add_library(${This}_lib ${Sources})
+
+target_link_libraries(
+        ${This} PUBLIC
+        TheModernCppChallenge_lib
+        gtest
+)
+add_test(
+        NAME    ${This}
+        COMMAND ${This}
+)

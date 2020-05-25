@@ -1,7 +1,7 @@
 //
 // Created by fox on 17/05/2020.
 //
-#include "../../include/1.Math/mathematics.h"
+#include "1.Math/mathematics.h"
 
 unsigned long long sumIntsDivBy3or5(unsigned int intLimit)
 {
