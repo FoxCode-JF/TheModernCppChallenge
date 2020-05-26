@@ -7,7 +7,10 @@ set(
         Sources
         mainTests.cpp
         1.Math/sumOfIntsDividedBy3or5Tests.cpp
-        1.Math/gcdTests.cpp)
+        1.Math/gcdTests.cpp
+        1.Math/lcmTests.cpp
+        1.Math/findPrimeLessThanTests.cpp)
+
 add_subdirectory(1.Math)
 
 add_executable(${This} ${Sources})

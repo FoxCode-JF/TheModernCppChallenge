@@ -2,14 +2,17 @@ set(This Math_tst)
 
 set(Sources
         sumOfIntsDividedBy3or5Tests.cpp
-        gcdTests.cpp)
+        gcdTests.cpp
+        lcmTests.cpp
+        findPrimeLessThanTests.cpp)
+
 add_executable(${This} ${Sources} mathTests.cpp)
 
 
 #[[
 #   TODO:
-#   compile sources from math module as library and link it to all tests
-#   Currently: sources added directly via path
+#       compile sources from math module as library and link it to all tests
+#       Currently: sources added directly via path
 #]]
 #add_library(${This}_lib ${Sources})
 

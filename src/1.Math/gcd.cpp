@@ -1,7 +1,6 @@
 //
 // Created by fox on 17/05/2020.
 //
-#include <iostream>
 #include "1.Math/mathematics.h"
 
 int gcd(int a, int b)
